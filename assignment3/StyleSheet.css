@@ -1,0 +1,44 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+h3 {
+    color: blue;
+    background-color: orange;
+}
+
+.redclass {
+    color: #ff0000;
+}
+
+#blueid {
+    color: #0000ff;
+}
+
+#divid {
+    color: magenta;
+    background-color: black;
+}
+
+.spanclass {
+    color: aquamarine;
+    background-color: black;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
