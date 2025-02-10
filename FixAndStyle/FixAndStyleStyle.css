@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+h5 {
+    color: red;
+}
+
+.redtext {
+    color: red;
+}
+
+#greenbk {
+    background-color:lightgreen;
+}
+
+#divid1 {
+    background-color: mediumslateblue;
+}
+
+#divid2 {
+    background-color: yellow;
+}
+
+#spanid1 {
+    color: orange;
+}
+
+#spanid2 {
+    color: blue;
+}
+
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
