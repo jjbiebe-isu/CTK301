@@ -1,0 +1,150 @@
+#wrapper {
+    width: 920px;
+    margin: 16px auto;
+    padding: 0;
+    background-color: white;
+    border: 4px solid #343D77;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#sec_wrapper {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #0087e6, #0078d6, #0068c5, #005ab5, #004ba4);
+}
+
+#aside_welcome {
+    grid-column: span 4;
+    background-color: #ADD8E6;
+    padding: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#main_welcome {
+    grid-column: span 8;
+    padding: 16px;
+}
+
+#main_about {
+    grid-column: span 8;
+    padding: 16px;
+}
+
+#aside_about {
+    grid-column: span 4;
+    background-color: #ADD8E6;
+    padding: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.Gallery_col{
+    grid-column: span 4;
+    padding: 16px;
+}
+
+footer {
+    display: block;
+    grid-column: span 12;
+    border-top: 4px solid #343D77;
+    background-color: #D01D00;
+}
+
+body
+{
+    background-color: #999999;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    width: 222px;
+    margin: 2px;
+    margin-bottom: 4px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #0087e6, #0078d6, #0068c5, #005ab5, #004ba4);
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6BD0FF;
+    padding: 16px;
+}
+
+nav li a:hover {
+    background-image: linear-gradient(to top, #0087e6, #0078d6, #0068c5, #005ab5, #004ba4);
+    color: cyan;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 a {
+    font-style: italic;
+    font-weight: normal;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #6BD0FF;
+}
+
+h1 a:hover{
+    color: cyan;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+h2 {
+    font-weight: normal;
+    color: #003C99;
+    border-bottom: 3px solid #003C99;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+p {
+    font-family: Georgia, Arial, sans-serif;
+}
+
+.current{
+    color: white;
+}
+
+#float1{
+    float: left;
+    border: 3px solid #003E9B;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#float2{
+    float: right;
+    border: 3px solid #003E9B;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.gallery_img{
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+
