@@ -1,0 +1,138 @@
+body {
+  background-color: #999999;
+  color: rgba(192, 192, 193, 1);
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#float_middle {
+  display: block;
+  margin: 16px 16px 16px 64px;
+}
+
+#Project_Title {
+  border-right: 5px solid rgba(192, 192, 193, 1);
+  padding: 40px;
+}
+
+#Media_Links {
+  grid-column: span 3;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+.Media_Link {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(10, 20, 95, 1);
+  border-radius: 50%;
+  margin: 16px;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  grid-column: span 12;
+}
+
+main {
+  grid-column: span 9;
+  background-color: rgba(0, 20, 125, 1);
+  margin-bottom: 45px;
+}
+
+aside {
+  grid-column: span 3;
+  background-color: rgba(0, 20, 125, 1);
+  margin-bottom: 45px;
+}
+aside h2 {
+  height: 57px;
+}
+
+aside p {
+  text-align: justify;
+  background-color: rgba(10, 20, 95, 1);
+  padding: 16px;
+  margin: 16px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: rgba(26, 74, 157, 1);
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+footer h3 {
+  grid-column: span 9;
+  padding: 12px;
+  margin-left: 12px;
+  border-right: 5px solid rgba(192, 192, 193, 1);
+}
+
+nav {
+  grid-column: span 12;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0px;
+  align-items: center;
+}
+
+nav li {
+  width: 270px;
+  margin: 16px 48px 16px 48px;
+  background-color: rgba(0, 20, 125, 1);
+}
+
+nav li a {
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(192, 192, 193, 1);
+  padding: 16px;
+}
+
+nav li a:hover {
+  color: rgba(243, 243, 243, 1);
+  background-color: rgba(4, 31, 172, 1);
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 32px;
+  margin: 16px;
+  background-color: rgba(26, 74, 157, 1);
+}
+
+h2 {
+  text-align: center;
+  padding: 26px;
+  margin: 0px;
+  background-color: rgba(26, 74, 157, 1);
+}
