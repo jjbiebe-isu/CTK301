@@ -6,7 +6,6 @@ body {
   #wrapper {
     margin: 24px auto;
     width: 1200px;
-    border: 1px solid black;
     padding: 24px;
     background-color: rgba(192, 192, 193, 1);
     display: grid;
@@ -19,6 +18,11 @@ body {
     text-align: center;
     line-height: 32px;
     border-left: 5px solid rgba(192, 192, 193, 1);
+  }
+
+  #current_page {
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(4, 31, 172, 1);
   }
   
   .Media_Icon {
@@ -37,6 +41,47 @@ body {
     grid-column: span 12;
   }
 
+  nav {
+    grid-column: span 12;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 16px 48px 16px 48px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+  }
+  
+  nav li a {
+    display: block;
+    width: 270px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(192, 192, 193, 1);
+    background-color: rgba(0, 20, 125, 1);
+    padding: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  nav li a:hover {
+    color: rgba(243, 243, 243, 1);
+    background-color: rgba(4, 31, 172, 1);
+    width: 300px;
+  }
+
   footer {
     grid-column: span 12;
     background-color: rgba(26, 74, 157, 1);
@@ -49,7 +94,7 @@ body {
   footer h3 {
     grid-column: span 9;
     padding: 16px;
-    margin: 0 0 0 12px;
+    margin: 2px 0 0 12px;
   }
   
   footer h3 a {
